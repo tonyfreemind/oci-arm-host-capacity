@@ -69,6 +69,18 @@ run
 ```bash
 cd oci-arm-host-capacity/
 sudo apt install composer
+sudo apt update
+sudo apt install php libapache2-mod-php -y
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php composer-setup.php
+sudo apt-get install zlibc -y
+php -r "unlink('composer-setup.php');"
+sudo mv composer.phar /usr/local/bin/composer
+sudo apt install php7.4-curl
+sudo apt install php7.4-dom
+sudo apt install php7.4-mbstring
+sudo apt install php7.4-zip php7.4-unzip
+sudo apt install unzip -y
 composer install
 ```
 
