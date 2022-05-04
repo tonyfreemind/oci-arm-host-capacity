@@ -81,6 +81,8 @@ sudo apt install php7.4-dom
 sudo apt install php7.4-mbstring
 sudo apt install unzip -y
 composer install
+
+nano index.php
 ```
 
 ## Configuration
