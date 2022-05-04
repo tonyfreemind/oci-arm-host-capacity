@@ -68,6 +68,7 @@ git clone https://github.com/hitrov/oci-arm-host-capacity.git
 run
 ```bash
 cd oci-arm-host-capacity/
+sudo apt install composer
 composer install
 ```
 
