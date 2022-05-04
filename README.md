@@ -79,7 +79,6 @@ sudo mv composer.phar /usr/local/bin/composer
 sudo apt install php7.4-curl
 sudo apt install php7.4-dom
 sudo apt install php7.4-mbstring
-sudo apt install php7.4-zip php7.4-unzip
 sudo apt install unzip -y
 composer install
 ```
